@@ -8,7 +8,11 @@
   <packaging>maven-archetype</packaging>
 
   <name>${project.artifactId}</name>
-
+  
+  <properties>
+    <jetty-version>7.5.0-SNAPSHOT</jetty-version>
+  </properties>
+  
   <distributionManagement>
     <repository>
       <id>publicstaticvoidmain.release</id>
